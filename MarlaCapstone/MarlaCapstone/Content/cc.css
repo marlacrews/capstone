@@ -1,0 +1,38 @@
+
+html { font-family:Tahoma, sans-serif; }
+
+body { background-color: slateblue;}
+
+#container { height:610px; width:1260px; margin: auto; border: 5px yellow solid; margin: auto;}
+
+#masthead { background-color: slategray; height: 130px; width: 1260px;}
+
+#top_nav {background-color: slategray; width:1260; height:50px; font-size: 1em;}
+
+#top_nav ul { display: inline-block; float:right; padding-right:25px;}
+	
+#top_nav li { display: inline-block;}
+	
+#top_nav a:link {color: white; text-decoration: underline;}      /* unvisited link */
+
+#top_nav a:visited {color: white; text-decoration: none;}  /* visited link */
+
+#top_nav a:hover {color: white; background-color:slateblue;}  /* mouse over link */
+
+#top_nav a:active {color: white; text-decoration: line-through;}  /* selected link */
+
+#left_nav {background-color: slategray; height: 430px; width: 200px; font-size: 0.75em; float: left;}
+
+#left_nav img { padding-left: 50px; }
+
+#left_nav a:link {color: white;  text-decoration: underline;}      /* unvisited link */
+
+#left_nav a:visited {color: white; text-decoration: none; }  /* visited link */
+
+#left_nav a:hover {color: white; background-color:slateblue;}  /* mouse over link */
+
+#left_nav a:active {color: white; text-decoration: line-through;}  /* selected link */
+
+#left_nav ul {color: ghostwhite; list-style: square;}
+
+#content {background-color: white; height: 380px; width: 1010px; overflow: auto; padding: 25px;}

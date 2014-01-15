@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title Claxton Connections </title>
+    @Styles.Render("~/Content/cc.css")
+
+</head>
+<body>
+    <div id="container">
+        <!-- box for web page-->
+        <div id="masthead">
+            <img src="~/Content/mastheadcc.gif" align="middle" />
+        </div> <!-- close masthead-->
+        <div id="top_nav">
+            <!-- top nav bar-->
+            <!-- top links -->
+            <ul>
+                <li>&#10023;</li>
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li> &#10023; </li>
+                <li>@Html.ActionLink("About", "About", "Home")</li>
+                <li>&#10023;</li>
+                <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                <li>&#10023;</li>
+                <li>@Html.ActionLink("Sign Up For Email News", "Register", "Account")</li>
+                <li>&#10023;</li>
+            </ul>
+        </div> <!-- close top nav -->
+
+        <div id="left_nav">
+            <img src="~/Content/icon.png" />
+            @Html.Partial("_LoginPartial")
+            <ul>
+                <li>@Html.ActionLink("Local Area Events", "LocalEvents", "Home")</li>
+                <li><a href="">View Paystub Report</a></li>
+                <li><a href="">View YTD Pay </a></li>
+                <li><a href="">Employee Management</a></li>
+                <li><a href="">Payroll Functions</a></li>
+                <li><a href="">Miscellaneous Tasks</a></li>
+            </ul>
+        </div> <!-- close left nav -->
+
+        <div id="content">
+            @RenderBody()
+            @Scripts.Render("~/bundles/jquery")
+            @RenderSection("scripts", required: false)
+            @Scripts.Render("~/bundles/modernizr")
+
+        </div> <!-- close content-->
+
+        <footer>
+            <p>&copy; @DateTime.Now.Year -Claxton Connections</p>
+        </footer>
+    </div> <!-- close container -->
+        
+</body>
+</html>
