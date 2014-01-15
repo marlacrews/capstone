@@ -36,3 +36,7 @@ body { background-color: slateblue;}
 #left_nav ul {color: ghostwhite; list-style: square;}
 
 #content {background-color: white; height: 380px; width: 1010px; overflow: auto; padding: 25px;}
+
+#content h1{color: black; text-align:center;}
+
+#content h2{color: cadetblue;}
