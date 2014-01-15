@@ -40,3 +40,15 @@ hire_date date not null,
 end_date date null,
 reason varchar(200) null,
 rehireable bit null);
+
+create table guestbook
+(id_num int not null PRIMARY KEY,
+first_name varchar(15) not null,
+last_name varchar(30) not null,
+city varchar(25) not null,
+state_abbrev char(2) not null,
+email varchar(100) null,
+comment_area varchar(1000) not null);
+
+create table guestforum
+();
