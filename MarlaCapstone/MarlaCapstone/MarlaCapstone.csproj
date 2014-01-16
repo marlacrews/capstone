@@ -226,6 +226,9 @@
     <Content Include="Views\Home\Toombs.cshtml" />
     <Content Include="Views\Home\Bulloch.cshtml" />
     <Content Include="Views\Home\Candler.cshtml" />
+    <Content Include="Views\Home\Comcast.cshtml" />
+    <Content Include="Views\Home\InternetCafe.cshtml" />
+    <Content Include="Views\Home\Products.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
