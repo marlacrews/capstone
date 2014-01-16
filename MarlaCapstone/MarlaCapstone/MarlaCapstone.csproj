@@ -159,6 +159,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\GuestBookController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -218,7 +219,13 @@
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\LocalEvents.cshtml" />
-    <Content Include="Views\Home\GuestBook.cshtml" />
+    <Content Include="Views\GuestBook\GBIndex.cshtml" />
+    <Content Include="Views\Home\Tattnall.cshtml" />
+    <Content Include="Views\Home\Evans.cshtml" />
+    <Content Include="Views\Home\Bryan.cshtml" />
+    <Content Include="Views\Home\Toombs.cshtml" />
+    <Content Include="Views\Home\Bulloch.cshtml" />
+    <Content Include="Views\Home\Candler.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

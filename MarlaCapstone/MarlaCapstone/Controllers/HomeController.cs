@@ -34,11 +34,6 @@ namespace MarlaCapstone.Controllers
             return View();
         }
 
-        public ActionResult GuestBook()
-        {
-            ViewBag.Message = "Guest Book";
-
-            return View();
-        }
+        
     }
 }
