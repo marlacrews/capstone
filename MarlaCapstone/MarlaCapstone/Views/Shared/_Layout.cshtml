@@ -24,7 +24,7 @@
                 <li>&#10023;</li>
                 <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                 <li>&#10023;</li>
-                <li>@Html.ActionLink("Guestbook", "GuestBook", "Home")</li>
+                <li>@Html.ActionLink("Guestbook", "GBIndex", "GuestBook")</li>
                 <li>&#10023;</li>
             </ul>
         </div> <!-- close top nav -->
@@ -37,18 +37,18 @@
             <li>Sign Guestbook</li>
             </ul>
         <ul>Products and Services
-            <li>Comcast Service</li>
-            <li>Internet Cafe</li>
-            <li>Local Products</li>
+            <li>@Html.ActionLink("Comcast Service", "Comcast", "Home")</li>
+            <li>@Html.ActionLink("Internet Cafe", "InternetCafe", "Home")</li>
+            <li>@Html.ActionLink("Local Products", "Products", "Home")</li>
         </ul>
             <ul>Area Information
                 <li>@Html.ActionLink("Local Area Events", "LocalEvents", "Home")</li>
-                <li>Evans County</li>
-                <li>Tattnall County</li>
-                <li>Bulloch County</li>
-                <li>Bryan County</li>
-                <li>Candler County</li>
-                <li>Toombs County</li>
+                <li>@Html.ActionLink("Evans County", "Evans", "Home")</li>
+                <li>@Html.ActionLink("Tattnall County", "Tattnall", "Home")</li>
+                <li>@Html.ActionLink("Bulloch County", "Bulloch", "Home")</li>
+                <li>@Html.ActionLink("Bryan County", "Bryan", "Home")</li>
+                <li>@Html.ActionLink("Candler County", "Candler", "Home")</li>
+                <li>@Html.ActionLink("Toombs County", "Toombs", "Home")</li>
             </ul>
         </div> <!-- close left nav -->
 

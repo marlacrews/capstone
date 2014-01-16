@@ -34,6 +34,67 @@ namespace MarlaCapstone.Controllers
             return View();
         }
 
-        
+        public ActionResult Bryan()
+        {
+            ViewBag.Message = "Bryan County";
+
+            return View();
+        }
+
+        public ActionResult Bulloch()
+        {
+            ViewBag.Message = "Bulloch County";
+
+            return View();
+        }
+
+        public ActionResult Candler()
+        {
+            ViewBag.Message = "Candler County";
+
+            return View();
+        }
+
+        public ActionResult Comcast()
+        {
+            ViewBag.Message = "Comcast Services";
+
+            return View();
+        }
+
+        public ActionResult Evans()
+        {
+            ViewBag.Message = "Evans County";
+
+            return View();
+        }
+
+        public ActionResult InternetCafe()
+        {
+            ViewBag.Message = "Internet Cafe";
+
+            return View();
+        }
+
+        public ActionResult Products()
+        {
+            ViewBag.Message = "Products";
+
+            return View();
+        }
+
+        public ActionResult Tattnall()
+        {
+            ViewBag.Message = "Tattnall";
+
+            return View();
+        }
+
+        public ActionResult Toombs()
+        {
+            ViewBag.Message = "Toombs County";
+
+            return View();
+        }
     }
 }
