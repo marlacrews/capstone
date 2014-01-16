@@ -3,6 +3,8 @@ html { font-family:Tahoma, sans-serif; }
 
 body { background-color: slateblue;}
 
+.center {text-align: center;}
+
 #container { height:610px; width:1260px; margin: auto; border: 5px yellow solid; margin: auto;}
 
 #masthead { background-color: slategray; height: 130px; width: 1260px;}
