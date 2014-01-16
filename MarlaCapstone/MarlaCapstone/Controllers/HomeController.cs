@@ -15,14 +15,14 @@ namespace MarlaCapstone.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "About The Company";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Contact Page";
 
             return View();
         }
@@ -30,6 +30,13 @@ namespace MarlaCapstone.Controllers
         public ActionResult LocalEvents()
         {
             ViewBag.Message = "Local Events";
+
+            return View();
+        }
+
+        public ActionResult GuestBook()
+        {
+            ViewBag.Message = "Guest Book";
 
             return View();
         }

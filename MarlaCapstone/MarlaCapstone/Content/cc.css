@@ -39,4 +39,16 @@ body { background-color: slateblue;}
 
 #content h1{color: black; text-align:center;}
 
+#content h2 {color: darkblue;}
+
+#content h3 { color: black;}
+
 #content h4{color: darkblue;}
+
+#content a:link {color: black;  text-decoration: underline; font-weight: bolder;}      /* unvisited link */
+
+#content a:visited {color: black; text-decoration: underline; font-weight:bold; }  /* visited link */
+
+#content a:hover {color: black; background-color:lightgray;}  /* mouse over link */
+
+#content a:active {color: black; text-decoration: line-through;}
