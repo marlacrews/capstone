@@ -72,5 +72,3 @@ in_stock int,
 qty_limited bit not null,
 can_order bit not null,
 reorder bit not null,);
-
-//stored procedures
