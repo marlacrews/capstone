@@ -1,0 +1,7 @@
+Removed from claxton connections db query
+
+create table tax_rate
+(tax_id char(3) not null PRIMARY KEY,
+tax_label varchar(25) not null,
+rates decimal not null);
+
