@@ -1,3 +1,4 @@
+/* Datatabase and Table Creation */
 CREATE DATABASE ClaxtonConnections
 GO 
 Use ClaxtonConnections
@@ -73,3 +74,5 @@ item_type varchar(100) not null,
 item_description varchar(250) not null,
 more_info varchar(250) null,
 inventory int not null FOREIGN KEY references inventory(in_stock))
+
+/* End of first set of tables */
