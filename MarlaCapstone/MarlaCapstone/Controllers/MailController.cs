@@ -6,15 +6,13 @@ using System.Web.Mvc;
 
 namespace MarlaCapstone.Controllers
 {
-    public class GuestBookController : Controller
+    public class MailController : Controller
     {
         //
-        // GET: /GuestBook/
-        public ActionResult GBIndex()
+        // GET: /Mail/
+        public ActionResult Index()
         {
             return View();
         }
-
-
 	}
 }
