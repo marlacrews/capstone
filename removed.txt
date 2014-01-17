@@ -8,4 +8,10 @@ rates decimal not null);
 removed from customers table
 username varchar(20) FOREIGN KEY references login(username)
 
+from left nav bar in layout
+
+<ul>Guestbook
+            <li>View Guestbook</li>
+            <li>Sign Guestbook</li>
+            </ul>
 
