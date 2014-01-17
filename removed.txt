@@ -5,3 +5,13 @@ create table tax_rate
 tax_label varchar(25) not null,
 rates decimal not null);
 
+add into top section of pages to see:
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    ViewBag.Title = "Index";
+}
+
+For Layout Page:
