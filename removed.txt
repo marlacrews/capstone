@@ -5,6 +5,9 @@ create table tax_rate
 tax_label varchar(25) not null,
 rates decimal not null);
 
+removed from customers table
+username varchar(20) FOREIGN KEY references login(username)
+
 add into top section of pages to see:
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";

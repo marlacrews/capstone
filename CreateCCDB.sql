@@ -21,12 +21,11 @@ create table customers
 first_name varchar(15) not null,
 last_name varchar(30) not null,
 street_address varchar(50) null,
-city varchar(25) not null,
-state_abbrev char(2) not null,
+city varchar(25)  null,
+state_abbrev char(2) null,
 zip_code char(5) not null,
 birthday date null,
-email varchar(100) not null,
-username varchar(20) FOREIGN KEY references login(username));
+email varchar(100) not null);
 
 create table login
 (username varchar(20) not null PRIMARY KEY,
