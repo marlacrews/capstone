@@ -8,13 +8,4 @@ rates decimal not null);
 removed from customers table
 username varchar(20) FOREIGN KEY references login(username)
 
-add into top section of pages to see:
-@{
-    Layout = "~/Views/Shared/_Layout.cshtml";
-}
 
-@{
-    ViewBag.Title = "Index";
-}
-
-For Layout Page:
