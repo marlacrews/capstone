@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="MailFM.cs" />
     <Compile Include="MailService.cs" />
+    <Compile Include="MailServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
