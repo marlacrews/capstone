@@ -1,7 +1,7 @@
 /* Datatabase and Table Creation */
-CREATE DATABASE ClaxtonConnections
+CREATE DATABASE MarlaCapstone
 GO 
-Use ClaxtonConnections
+Use MarlaCapstone
 Go
 
 create table userlogin
