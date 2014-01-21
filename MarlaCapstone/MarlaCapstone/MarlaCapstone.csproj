@@ -159,6 +159,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\GuestBookController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -174,6 +175,7 @@
     <Content Include="Content\cc.css" />
     <Content Include="Content\icon.png" />
     <Content Include="Content\mastheadcc.gif" />
+    <Content Include="Content\storefront.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -227,6 +229,7 @@
     <Content Include="Views\Home\Comcast.cshtml" />
     <Content Include="Views\Home\InternetCafe.cshtml" />
     <Content Include="Views\Home\Products.cshtml" />
+    <Content Include="Views\GuestBook\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
