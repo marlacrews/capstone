@@ -39,10 +39,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MailFM.cs" />
-    <Compile Include="MailService.cs" />
-    <Compile Include="MailServices.cs" />
+    <Compile Include="CustomerRegisterFM.cs" />
+    <Compile Include="CustomerRegisterVM.cs" />
+    <Compile Include="CustomersFM.cs" />
+    <Compile Include="CustomersVM.cs" />
+    <Compile Include="CustomerVM.cs" />
+    <Compile Include="GuestbookFM.cs" />
+    <Compile Include="GuestBookVM.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchFM.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLL
 {
-    public class CustomerVM
+    public class CustomerRegisterVM
     {
         public int Cust_ID { get; set; }
         public string First_Name { get; set; }

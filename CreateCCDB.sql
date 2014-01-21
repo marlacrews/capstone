@@ -39,7 +39,8 @@ create table [dbo].[customers](
 [State_2] char(2) null,
 [Zip_5] char(5) not null,
 [Birthday] date null,
-[Email] varchar(100) not null
+[Email] varchar(100) not null,
+[Active] bit not null DEFAULT ((1))
 )
 
 create table [dbo].[employment](
@@ -49,7 +50,8 @@ create table [dbo].[employment](
 [End_Date] date null,
 [Reason] varchar(200) null,
 [Rehireable] bit null,
-[UserID] INT not null FOREIGN KEY References userlogin(ID)
+[UserID] INT not null FOREIGN KEY References userlogin(ID),
+[Active] bit not null
 )
 
 create table [dbo].[guestbook](
@@ -85,7 +87,7 @@ inventory int not null FOREIGN KEY references inventory(in_stock))
 /* End of first set of tables */
 
 /*insert values into userlogin from mvc */
-Create PROCEDURE [dbo].[CreateUserLogin]
+/*Create PROCEDURE [dbo].[CreateUserLogin]
 @Username VARCHAR(100),
 @Password VARCHAR(25),
 @First_Name VARCHAR(15),
@@ -95,8 +97,8 @@ Create PROCEDURE [dbo].[CreateUserLogin]
 AS
 BEGIN
 INSERT INTO userlogin
-VALUES (@Username, @Password, @First_Name, @Last_Name, @Email, @Active)
-END
+VALUES (@Username, @Password, @First_Name, @Last_Name, @Email, @Active) 
+END */
 
 
 
