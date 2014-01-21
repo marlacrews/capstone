@@ -10,6 +10,8 @@ namespace MarlaCapstone.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "Home Page";
+
             return View();
         }
 
